@@ -1,6 +1,8 @@
 # platform-test-example-performance-tests
 
-An example performance test suite using the `vat-flat-rate-calculator-frontend`, and [performance-test-runner](https://github.com/hmrc/performance-test-runner) under the hood.
+Performance test suite for the `PLATFORM_TEST_EXAMPLE_UI_TESTS`, using [performance-test-runner](https://github.com/hmrc/performance-test-runner) under the hood.
+This is an example of the set-up, which performance template generates.
+
 
 ## Pre-requisites
 
