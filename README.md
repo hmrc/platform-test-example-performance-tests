@@ -1,8 +1,8 @@
-**This is a template README.md.  Be sure to update this with project specific content that describes your performance test project.**
-
 # platform-test-example-performance-tests
 
-Performance test suite for the `<digital service name>`, using [performance-test-runner](https://github.com/hmrc/performance-test-runner) under the hood.
+Performance test suite for the `PLATFORM_TEST_EXAMPLE_UI_TESTS`, using [performance-test-runner](https://github.com/hmrc/performance-test-runner) under the hood.
+This is an example of the set-up, which performance template generates.
+
 
 ## Pre-requisites
 
