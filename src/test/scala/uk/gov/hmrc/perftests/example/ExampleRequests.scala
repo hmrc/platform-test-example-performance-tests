@@ -28,7 +28,7 @@ object ExampleRequests extends ServicesConfiguration {
 
   val navigateToHomePage: HttpRequestBuilder =
     http("Navigate to Home Page")
-      .get(s"$baseUrl$route/vat-return-period")
+      .get(s"$baseUrl$route/vat-return-periodd")
       .check(status.is(200))
       .check(css("input[name=csrfToken]", "value").saveAs("csrfToken"))
 
