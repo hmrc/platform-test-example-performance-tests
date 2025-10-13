@@ -21,11 +21,19 @@ import uk.gov.hmrc.perftests.example.ExampleRequests._
 
 class ExampleSimulation extends PerformanceTestRunner {
 
-  setup("home-page", "Home Page") withRequests navigateToHomePage
+  setup("what-pet-looking-for", "What Pet Looking For") withRequests (startPage, whatPetLookingForForm, submitWhatPetLookingFor)
 
-  setup("post-vat-return-period", "Post vat return period") withRequests postVatReturnPeriod
+  setup("will-pet-be-around-children", "Will Pet Be Around Children") withRequests (willPetBeAroundChildren, submitWillPetBeAroundChildren)
 
-  setup("get-turnover-page", "Get turnover page") withRequests getTurnoverPage
+  setup("when-want-pet-from", "When Want Pet From") withRequests (whenWantPetFrom, submitWhenWantPetFrom)
+
+  setup("when-want-pet-until", "When Want Pet Until") withRequests (whenWantPetUntil, submitWhenWantPetUntil)
+
+  setup("check-your-answers", "Check Your Answers") withRequests (checkYourAnswers, submitCheckYourAnswers)
+
+  setup("pay-your-deposit", "Pay Your Deposit") withRequests (payYourDeposit, submitPayYourDeposit)
+
+  setup("confirmation", "Confirmation") withRequests confirmation
 
   runSimulation()
 }
