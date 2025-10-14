@@ -28,13 +28,9 @@ class ExampleSimulation extends PerformanceTestRunner {
 
   val random = new Random()
 
-  val firstNames = Array("James", "Mary", "John", "Patricia", "Robert", "Jennifer", "Michael", "Linda",
-    "William", "Barbara", "David", "Elizabeth", "Richard", "Susan", "Joseph", "Jessica",
-    "Thomas", "Sarah", "Charles", "Karen", "Christopher", "Nancy", "Daniel", "Lisa")
+  val firstNames = Array("Firstname", "MiddleName", "Lastname", "TestNameFirst", "TestNameLast", "SomeFirstName", "SomeLastName")
 
-  val lastNames = Array("Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis",
-    "Rodriguez", "Martinez", "Hernandez", "Lopez", "Wilson", "Anderson", "Thomas", "Taylor",
-    "Moore", "Jackson", "Martin", "Lee", "Thompson", "White", "Harris", "Clark")
+  val lastNames = Array("Firstname", "MiddleName", "LastName", "TestNameFirst", "TestNameLast", "SomeFirstName", "SomeLastName")
 
   // Custom feeder that generates random data
   val randomPetData: Iterator[Map[String, String]] = Iterator.continually(Map(
