@@ -1,0 +1,11 @@
+petType,aroundChildren,fromDay,fromMonth,fromYear,untilDay,untilMonth,untilYear,accountName,sortCode,accountNumber,buildingSocietyRoll
+cat,false,12,05,2025,12,03,2026,Test Name,${range-6},${range-8},
+dog,true,15,06,2025,15,06,2026,Name Test,${range-6},${range-8},ABC${range-3}
+cat,true,01,07,2025,01,07,2026,Test Testname,${range-6},${range-8},
+dog,false,20,08,2025,20,08,2026,Testname Test,${range-6},${range-8},XYZ${range-3}
+cat,false,10,09,2025,10,09,2026,Test Test,${range-6},${range-8},
+dog,true,25,10,2025,25,10,2026,Firstname Test,${range-6},${range-8},
+cat,true,05,11,2025,05,11,2026,Test Surname,${range-6},${range-8},DEF${range-3}
+dog,false,18,12,2025,18,12,2026,name test,${range-6},${range-8},
+cat,false,22,01,2026,22,01,2027,Testname,${range-6},${range-8},GHI${range-3}
+dog,true,28,02,2026,28,02,2027,Test,${range-6},${range-8},JKL${range-3}
