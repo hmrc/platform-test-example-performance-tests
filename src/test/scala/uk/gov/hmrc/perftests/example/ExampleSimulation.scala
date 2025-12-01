@@ -21,7 +21,7 @@ import uk.gov.hmrc.perftests.example.ExampleRequests._
 
 class ExampleSimulation extends PerformanceTestRunner {
 
-  setup("hello world", "hello world") withRequests (startPage)
+  setup("hello-world", "hello world") withRequests (startPage)
 
 
   runSimulation()
