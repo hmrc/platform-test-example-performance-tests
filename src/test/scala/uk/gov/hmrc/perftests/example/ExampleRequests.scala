@@ -27,7 +27,7 @@ object ExampleRequests extends ServicesConfiguration {
   //val route: String   = "/world"
   val route: String   = "/hello/world"
   //val routeAPI: String   = "/api-simulator/user"
-  val routeAPI: String   = "/user"
+  val routeAPI: String   = "/application/accepted/latency/11"
 
 //  def startPage: HttpRequestBuilder =
 //    http("hello world api")
@@ -38,7 +38,9 @@ object ExampleRequests extends ServicesConfiguration {
   def startPage: HttpRequestBuilder =
     http("hello world api")
       .post(s"$baseUrl$routeAPI")
-      .header("Accept","application/vnd.hmrc.1.0+json")
+      .header("Accept","application/vnd.hmrc.2.0+json")
+      .header("ContentType","TextPlain")
+      .body(StringBody("testtesttesttesttesttest"))
   //.check(status.in(200, 303))
 
 
