@@ -24,7 +24,8 @@ import uk.gov.hmrc.performance.conf.ServicesConfiguration
 object ExampleRequests extends ServicesConfiguration {
 
   val baseUrl: String = baseUrlFor("example-frontend")
-  val route: String   = "/world"
+  //val route: String   = "/world"
+  val route: String   = "/hello/world"
 
   def startPage: HttpRequestBuilder =
     http("hello world api")
