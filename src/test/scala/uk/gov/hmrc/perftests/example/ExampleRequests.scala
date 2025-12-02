@@ -26,12 +26,20 @@ object ExampleRequests extends ServicesConfiguration {
   val baseUrl: String = baseUrlFor("example-frontend")
   //val route: String   = "/world"
   val route: String   = "/hello/world"
+  //val routeAPI: String   = "/api-simulator/user"
+  val routeAPI: String   = "/user"
+
+//  def startPage: HttpRequestBuilder =
+//    http("hello world api")
+//      .get(s"$baseUrl$route")
+//      .header("Accept","application/vnd.hmrc.1.0+json")
+//      //.check(status.in(200, 303))
 
   def startPage: HttpRequestBuilder =
     http("hello world api")
       .get(s"$baseUrl$route")
       .header("Accept","application/vnd.hmrc.1.0+json")
-      //.check(status.in(200, 303))
+  //.check(status.in(200, 303))
 
 
 }
