@@ -37,7 +37,7 @@ object ExampleRequests extends ServicesConfiguration {
 
   def startPage: HttpRequestBuilder =
     http("hello world api")
-      .post(s"$baseUrl$route")
+      .post(s"$baseUrl$routeAPI")
       .header("Accept","application/vnd.hmrc.1.0+json")
   //.check(status.in(200, 303))
 
